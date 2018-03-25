@@ -11,7 +11,7 @@ This Plugin adds a Print-Size button to the Summernote toolbar that lets you cha
 Include the following code after Summernote:
 
 ```html
-<script src="summernote-print-size.js"></script>
+<script src="summernote-paper-size.js"></script>
 ```
 
 #### 2. Supported languages
@@ -23,7 +23,7 @@ Currently available in English!
 ```javascript
 $('.summernote').summernote({
     toolbar:[
-        ['printSize',['printSize']], // The Button
+        ['paperSize',['paperSize']], // The Button
         ['style',['style']],
         ['font',['bold','italic','underline','clear']],
         ['fontname',['fontname']],
